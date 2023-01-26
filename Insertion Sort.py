@@ -11,3 +11,5 @@ def insertion_sort(unique_values):
 
 
 unique_values = [57, 26, 28, 88, 55, 78, 90, 79, 27, 35]
+insertion_sort(unique_values)
+print("This is the result in using the Insertion Sort function:",unique_values)

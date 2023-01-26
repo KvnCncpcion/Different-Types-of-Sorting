@@ -28,3 +28,5 @@ def partition(unique_values, left, right):
     return i
 
 unique_values = [57, 26, 28, 88, 55, 78, 90, 79, 27, 35]
+quick_sort(unique_values, 0, len(unique_values) - 1)
+print("This is the result in using the Quick So",unique_values)

@@ -13,3 +13,5 @@ def selection_sort(unique_values):
         unique_values[i], unique_values[cur_min_index] = unique_values[cur_min_index], unique_values[i]
 
 unique_values = [57, 26, 28, 88, 55, 78, 90, 79, 27, 35]
+selection_sort(unique_values)
+print("This is the result in using the Selection Sort function:",unique_values)

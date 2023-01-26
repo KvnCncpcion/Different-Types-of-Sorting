@@ -2,6 +2,9 @@ print("***************PROGRAMMED BY******************")
 print("**********Kevin Joseph G. Concepcion**********")
 print("*****************BSCOE 2-2********************")
 
+print("Using Merge Sort")
+print("\nThis should be the elements contained in the array: [57, 26, 28, 88, 55, 78, 90, 79, 27, 35]")
+
 def merge_sort(unique_values):
     if len(unique_values) > 1:
         left_array = unique_values[:len(unique_values)//2]
@@ -35,4 +38,6 @@ def merge_sort(unique_values):
 
 unique_values = [57, 26, 28, 88, 55, 78, 90, 79, 27, 35]
 merge_sort(unique_values)
-print("This is the result in using the Merge Sort function:",unique_values)
+print("\nThis is the result in using the Merge Sort function:",unique_values)
+
+# Reference for the code: https://www.youtube.com/watch?v=cVZMah9kEjI

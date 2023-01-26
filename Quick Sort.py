@@ -2,6 +2,9 @@ print("***************PROGRAMMED BY******************")
 print("**********Kevin Joseph G. Concepcion**********")
 print("*****************BSCOE 2-2********************")
 
+print("Using Quick Sort")
+print("\nThis should be the elements contained in the array: [57, 26, 28, 88, 55, 78, 90, 79, 27, 35]")
+
 def quick_sort(unique_values, left, right):
     if left < right:
         partition_pos = partition(unique_values, left, right)
@@ -29,4 +32,6 @@ def partition(unique_values, left, right):
 
 unique_values = [57, 26, 28, 88, 55, 78, 90, 79, 27, 35]
 quick_sort(unique_values, 0, len(unique_values) - 1)
-print("This is the result in using the Quick So",unique_values)
+print("\nThis is the result in using the Quick Sort function:",unique_values)
+
+# Reference for the code: https://www.youtube.com/watch?v=9KBwdDEwal8
